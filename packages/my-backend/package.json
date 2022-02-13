@@ -1,0 +1,20 @@
+{
+  "name": "my-backend",
+  "version": "1.0.0",
+  "description": "",
+  "author": "NickDone <651309599@qq.com>",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/app",
+    "test": "echo test running in my-backend-app"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "pino": "^7.6.5",
+    "pino-http": "^6.6.0",
+    "pino-pretty": "^7.5.1"
+  }
+}
